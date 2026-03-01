@@ -1,0 +1,6 @@
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server-->Browser: Status code 201 Created
+Browser-->Browser: Updates notes list without reloading
+Browser->Server: HTTP GET data.json
+Server-->Browser: Updated JSON data
+Browser-->Browser: Renders updated notes dynamically

@@ -1,0 +1,9 @@
+Browser->Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+Server-->Browser: HTML document
+Browser->Server: HTTP GET main.css
+Server-->Browser: CSS file
+Browser->Server: HTTP GET main.js
+Server-->Browser: JavaScript file
+Browser->Server: HTTP GET data.json
+Server-->Browser: JSON data
+Browser-->Browser: Executes JavaScript and renders notes
